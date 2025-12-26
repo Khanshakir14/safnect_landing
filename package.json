@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "SAFNECT - Healthcare Technology Platform (MERN Stack)",
     "private": true,
+    "engines": {
+        "node": "18.x"
+    },
     "scripts": {
         "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
         "dev:server": "cd api && npm run dev",
